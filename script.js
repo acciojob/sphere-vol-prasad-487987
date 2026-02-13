@@ -31,7 +31,7 @@ function volume_sphere(e) {
 e.preventDefault();
 let radius = document.getElementById("radius").value;
 
-```
+
 radius = Number(radius);
 
 if(isNaN(radius) || radius < 0) {
@@ -45,7 +45,6 @@ volume = volume.toFixed(4);
 
 document.getElementById("volume").value = volume;
 
-```
 
 }
 
