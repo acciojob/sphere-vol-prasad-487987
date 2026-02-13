@@ -14,7 +14,7 @@ function volume_sphere() {
 		return false;
 	}
 
-	let volume = (4/3) * Math.pi *Math.pow(radius);
+	let volume = (4/3) * Math.pi *Math.pow(radius,3);
 	// It keeps value till 4 decimal number 
 	volume = volume.toFixed(4);
 
