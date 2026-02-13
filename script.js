@@ -11,6 +11,7 @@ function volume_sphere() {
 
 	if(isNaN(radius) || radius < 0){
 		document.getElementById("volume").value = NaN;
+		return false;
 	}
 
 	let volume = (4/3) * Math.pi *Math.pow(radius);
